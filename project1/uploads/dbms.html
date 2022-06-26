@@ -1,0 +1,203 @@
+<!doctype html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitish1</title>
+<link rel="stylesheet" href="../Styles/dbms.css">
+
+</head>
+
+<body>
+    <main>
+    <div class="a" id="flex"><h1  style="text-align:center">Database Management System</h1>  
+        <div id="flexx"><a href="1st.html" ><button class="button1">Previous Page</button></a>
+            <a href="dbms1.html" ><button class="button2">Next Page</button ></a></div> 
+<h2>
+    Introduction
+</h2>
+<p>
+    <strong>Database:</strong> Database is a collection of inter-related data which helps in efficient retrieval, insertion and deletion of data from database and organizes the data in the form of tables, views, schemas, reports etc. For Example, university database organizes the data about students, faculty, and admin staff etc. which helps in efficient retrieval, insertion and deletion of data from it.
+</p>
+<h3>
+    What is a Database Management System? 
+</h3>
+<p>
+    Database Management System (DBMS) is a software application that is used to create, access, maintain, and manage databases. We can install it like any other application and use SQL for all the operations that we intend to perform on databases. DBMS accepts the incoming data either from an application or from a user who is manually entering it.
+
+</p>
+<p>
+    A database management system (DBMS) refers to the technology for creating and managing databases. DBMS is a software tool to organize (create, retrieve, update, and manage) data in a database.
+</p>
+<p>
+    The main aim of a DBMS is to supply a way to store up and retrieve database information that is both convenient and efficient. By data, we mean known facts that can be recorded and that have embedded meaning. Usually, people use software such as DBASE IV or V, Microsoft ACCESS, or EXCEL to store data in the form of a database. A datum is a unit of data. Meaningful data combined to form information. Hence, information is interpreted data - data provided with semantics. MS. ACCESS is one of the most common examples of database management software.
+</p>
+<h3>
+    Why Use DBMS?
+</h3>
+<ul>
+    <li>To develop software applications In less time.</li>
+    <li>Data independence and efficient use of data.</li>
+    <li>For uniform data administration.</li>
+    <li>For data integrity and security.</li>
+    <li>For concurrent access to data, and data recovery from crashes.</li>
+    <li>To use user-friendly declarative query language.</li>
+</ul>
+<h3>Where is a Database Management System(DBMS) Being Used?</h3>
+<ul><li><strong>Airlines:</strong>reservations, schedules, etc</li>
+    <li><strong>Telecom:</strong>calls made, customer details, network usage, etc</li>
+    <li><strong>Universities:</strong>registration, results, grades, etc</li>
+    <li><strong>Sales:</strong>products, purchases, customers, etc</li>
+    <li><strong>Banking:
+    </strong>all transactions etc
+</li>
+</ul>
+<h3>Advantages of DBMS</h3>
+<p>
+    A DBMS manages data and has many benefits. These are: 
+</p>
+<ul>
+    <li><strong>Data independence:</strong>Application programs should be as free or independent as possible from details of data representation and storage. DBMS can supply an abstract view of the data for insulating application code from such facts.</li>
+    <li><strong>Efficient data access:</strong>DBMS utilizes a mixture of sophisticated concepts and techniques for storing and retrieving data competently. This feature becomes important in cases where the data is stored on external storage devices.</li>
+    <li><strong>Data integrity and security</strong>If data is accessed through the DBMS, the DBMS can enforce integrity constraints on the data.</li>
+    <li><strong>Data administration:</strong>When several users share the data, integrating the administration of data can offer significant improvements. Experienced professionals understand the nature of the data being managed and can be responsible for organizing the data representation to reduce redundancy and make the data to retrieve efficiently.</li>
+</ul>
+<h3>Components of DBMS</h3>
+<img src="https://scanftree.com/dbms/images/component-of-database.jpg">
+<p></p>
+<ul>
+    <li>
+        <strong>Users: </strong>Users may be of any kind such as DB administrator, System developer, or database users.
+    </li>
+    <li><strong>Database application:</strong>Database application may be Departmental, Personal, organization's and / or Internal.</li>
+    <li><strong>DBMS:</strong>Software that allows users to create and manipulate database access,</li>
+    <li>Database: Collection of logical data as a single unit.</li>
+</ul>
+
+<h2>Database System vs File Processing System</h2>
+
+<p>
+    <strong>File System :</strong>&nbsp;<br>The file system is basically a way of arranging the files in a storage medium like a hard disk. The file system organizes the files and helps in the retrieval of files when they are required. File systems consist of different files which are grouped into directories. The directories further contain other folders and files. The file system performs basic operations like management, file naming, giving access rules, etc.&nbsp;</p><p><strong>Example:</strong>&nbsp;NTFS(New Technology File System), EXT(Extended File System).
+    </p>
+<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200430141546/FILEGFG1.png >
+<p>
+    <strong>DBMS(Database Management System) :</strong>&nbsp;<br>Database Management System is basically software that manages the collection of related data. It is used for storing data and retrieving the data effectively when it is needed. It also provides proper security measures for protecting the data from unauthorized access. In Database Management System the data can be fetched by SQL queries and relational algebra. It also provides mechanisms for data recovery and data backup.&nbsp;
+</p>
+<p>
+    <strong>Example:</strong>&nbsp;
+</p>
+<pre>
+    Oracle, MySQL, MS SQL server.
+</pre>
+<img src=https://media.geeksforgeeks.org/wp-content/uploads/20200430142426/DBMSFINALGFG.png>
+</p>
+<h3><strong>Difference between File System and DBMS:</strong>&nbsp;</h3>
+<figure class=table>
+    <table>
+        <thead>
+            <tr>
+                <th>Basis</th>
+                <th>File System</th>
+                <th>DBMS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Structure</th>
+                <td>
+                    The file system is software that manages and organizes the files in a storage medium within a computer.
+
+                </td>
+                <td>
+                    DBMS is software for managing the database.
+
+                </td>
+            </tr>
+            <tr>
+                <th>Data Redundancy</th>
+                <td>Redundant data can be present in a file system.</td>
+                <td>In DBMS there is no redundant data.</td>
+            </tr>
+            <tr>
+                <th>Backup and Recovery</th>
+                <td>It doesn&#8217;t provide backup and recovery of data if it is lost.</td>
+                <td>It provides backup and recovery of data even if it is lost.</td>
+            </tr>
+            <tr>
+                <th>Query processing</th>
+                <td>There is no efficient query processing in the file system.</td>
+                <td>Efficient query processing is there in DBMS.</td>
+            </tr>
+            <tr>
+                <th>Consistency</th>
+                <td>There is less data consistency in the file system.</td>
+                <td>
+                    There is more data consistency because of the process of normalization.
+                </td>
+            </tr>
+            <tr>
+                <th>Complexity</th>
+                <td>It is less complex as compared to DBMS.</td>
+                <td>It has more complexity in handling as compared to the file system.</td>
+            </tr>
+            <tr>
+                <th>Security Constraints</th>
+                <td>File systems provide less security in comparison to DBMS.</td>
+                <td>DBMS has more security mechanisms as compared to file systems.</td>
+            </tr>
+            <tr>
+                <th>Cost</th>
+                <td>It is less expensive than DBMS.</td>
+                <td>It has a comparatively higher cost than a file system.</td>
+            </tr>
+            <tr>
+                <th>Data Independence</th>
+                <td>There is no data independence.</td>
+                <td>In DBMS data independence exists.</td>
+            </tr>
+            <tr>
+                <th>User Access</th>
+                <td>Only one user can access data at a time.</td>
+                <td>Multiple users can access data at a time.</td>
+            </tr>
+            <tr>
+                <th>Meaning</th>
+                <td>The user has to write procedures for managing databases</td>
+                <td>The user not required to write procedures.</td>
+            </tr>
+            <tr>
+                <th>Sharing&nbsp;</th>
+                <td>Data is distributed in many files. So, not easy to share data</td>
+                <td>Due to centralized nature sharing is easy</td>
+            </tr>
+            <tr>
+                <th>Data Abstraction</th>
+                <td>It give details of storage and representation of data</td>
+                <td>It hides the internal details of Database</td>
+            </tr>
+            <tr>
+                <th>Integrity Constraints</th>
+                <td>Integrity Constraints are difficult to implement</td>
+                <td>Integrity constraints are easy to implement</td>
+            </tr>
+            <tr>
+                <th>Example</th>
+                <td>Cobol, C++</td>
+                <td>Oracle, SQL Server</td>
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+<div id="flexx"><a href="1st.html" ><button class="button1">Previous Page</button></a>
+    <a href="dbms1.html" ><button class="button2">Next Page</button ></a></div>
+
+
+    </div></main>
+</body>
+</html>

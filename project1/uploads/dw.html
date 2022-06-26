@@ -1,0 +1,86 @@
+<!doctype html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitish1</title>
+<link rel="stylesheet" href="../Styles/dw.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="a" id="flex"><h1  style="text-align:center">Data Warehouse and Data Mining</h1>  
+            <div id="flexx"><a href="4th.html" ><button class="button1">Previous Page</button></a>
+                <a href="dw1.html" ><button class="button2">Next Page</button ></a></div>
+                    
+                    <p>Data Warehouse is a relational database management system (RDBMS) construct to meet the requirement of transaction processing systems. It can be loosely described as any centralized data repository which can be queried for business benefits. It is a database that stores information oriented to satisfy decision-making requests. It is a group of decision support technologies, targets to enabling the knowledge worker (executive, manager, and analyst) to make superior and higher decisions. So, Data Warehousing support architectures and tool for business executives to systematically organize, understand and use their information to make strategic decisions.</p>
+                    <p>Data Warehouse environment contains an extraction, transportation, and loading (ETL) solution, an online analytical processing (OLAP) engine, customer analysis tools, and other applications that handle the process of gathering information and delivering it to business users. </p>
+                    <h2 class="h2">What is a Data Warehouse?</h2>
+                    <p>A Data Warehouse (DW) is a relational database that is designed for query and analysis rather than transaction processing. It includes historical data derived from transaction data from single and multiple sources.</p>
+                    <p>A Data Warehouse provides integrated, enterprise-wide, historical data and focuses on providing support for decision-makers for data modeling and analysis.</p>
+                    <p>A Data Warehouse is a group of data specific to the entire organization, not only to a particular group of users.</p>
+                    <p>It is not used for daily operations and transaction processing but used for making decisions.</p>
+                    <p>A Data Warehouse can be viewed as a data system with the following attributes:</p>
+                    <ul class="points">
+                    <li>It is a database designed for investigative tasks, using data from various applications.</li>
+                    <li>It supports a relatively small number of clients with relatively long interactions.</li>
+                    <li>It includes current and historical data to provide a historical perspective of information.</li>
+                    <li>Its usage is read-intensive.</li>
+                    <li>It contains a few large tables.</li>
+                    </ul>
+                    <p>"Data Warehouse is a subject-oriented, integrated, and time-variant store of information in support of management's decisions."</p>
+                    <h2 class="h2">Characteristics of Data Warehouse</h2>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/data-warehouse.png" alt="Data Warehouse" />
+                    <h2 class="h3">Subject-Oriented</h2>
+                    <p>A data warehouse target on the modeling and analysis of data for decision-makers. Therefore, data warehouses typically provide a concise and straightforward view around a particular subject, such as customer, product, or sales, instead of the global organization's ongoing operations. This is done by excluding data that are not useful concerning the subject and including all data needed by the users to understand the subject.</p>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/data-warehouse 1.png" alt="Data Warehouse" />
+                    <h2 class="h3">Integrated</h2>
+                    <p>A data warehouse integrates various heterogeneous data sources like RDBMS, flat files, and online transaction records. It requires performing data cleaning and integration during data warehousing to ensure consistency in naming conventions, attributes types, etc., among different data sources.</p>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/data-warehouse 2.png" alt="Data Warehouse" />
+                    <h2 class="h3">Time-Variant</h2>
+                    <p>Historical information is kept in a data warehouse. For example, one can retrieve files from 3 months, 6 months, 12 months, or even previous data from a data warehouse. These variations with a transactions system, where often only the most current file is kept. </p>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/data-warehouse 3.png" alt="Data Warehouse" />
+                    <h2 class="h3">Non-Volatile</h2>
+                    <p>The data warehouse is a physically separate data storage, which is transformed from the source operational RDBMS. The operational updates of data do not occur in the data warehouse, i.e., update, insert, and delete operations are not performed. It usually requires only two procedures in data accessing: Initial loading of data and access to data. Therefore, the DW does not require transaction processing, recovery, and concurrency capabilities, which allows for substantial speedup of data retrieval. Non-Volatile defines that once entered into the warehouse, and data should not change.</p>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/data-warehouse 4.png" alt="Data Warehouse" />
+                    <hr />
+                    <h2 class="h2">History of Data Warehouse</h2>
+                    <p>The idea of data warehousing came to the late 1980's when IBM researchers Barry Devlin and Paul Murphy established the "Business Data Warehouse."</p>
+                    <p>In essence, the data warehousing idea was planned to support an architectural model for the flow of information from the operational system to decisional support environments. The concept attempt to address the various problems associated with the flow, mainly the high costs associated with it.</p>
+                    <p>In the absence of data warehousing architecture, a vast amount of space was required to support multiple decision support environments. In large corporations, it was ordinary for various decision support environments to operate independently.</p>
+                    <h2 class="h2">Goals of Data Warehousing</h2>
+                    <ul class="points">
+                    <li>To help reporting as well as analysis</li>
+                    <li>Maintain the organization's historical information</li>
+                    <li>Be the foundation for decision making.</li>
+                    </ul>
+                    <h2 class="h3">Need for Data Warehouse </h2>
+                    <p>Data Warehouse is needed for the following reasons:</p>
+                    <img src="https://static.javatpoint.com/tutorial/datawarehouse/images/history-of-data-warehouse.png" alt="History of Data Warehouse" />
+                    <ol class="points">
+                    <li>1) <strong>Business User:</strong> Business users require a data warehouse to view summarized data from the past. Since these people are non-technical, the data may be presented to them in an elementary form.</li>
+                    <li>2) <strong>Store historical data:</strong> Data Warehouse is required to store the time variable data from the past. This input is made to be used for various purposes.</li>
+                    <li>3) <strong>Make strategic decisions:</strong> Some strategies may be depending upon the data in the data warehouse. So, data warehouse contributes to making strategic decisions.</li>
+                    <li>4) <strong>For data consistency and quality:</strong> Bringing the data from different sources at a commonplace, the user can effectively undertake to bring the uniformity and consistency in data.</li>
+                    <li>5) <strong>High response time:</strong> Data warehouse has to be ready for somewhat unexpected loads and types of queries, which demands a significant degree of flexibility and quick response time.</li>
+                    </ol>
+                    <h2 class="h3">Benefits of Data Warehouse</h2>
+                    <ol class="points">
+                    <li>Understand business trends and make better forecasting decisions.</li>
+                    <li>Data Warehouses are designed to perform well enormous amounts of data.</li>
+                    <li>The structure of data warehouses is more accessible for end-users to navigate, understand, and query.</li>
+                    <li>Queries that would be complex in many normalized databases could be easier to build and maintain in data warehouses.</li>
+                    <li>Data warehousing is an efficient method to manage demand for lots of information from lots of users.</li>
+                    <li>Data warehousing provide the capabilities to analyze a large amount of historical data.</li>
+                    </ol>
+
+
+         <div id="flexx"><a href="4th.html" ><button class="button1">Previous Page</button></a>
+            <a href="dw1.html" ><button class="button2">Next Page</button ></a></div>
+
+        </div>
+    </main>
+</body>
+</html>

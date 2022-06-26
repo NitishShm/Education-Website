@@ -1,0 +1,87 @@
+
+<!doctype html>
+
+<html>
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nitish1</title>
+<link rel="stylesheet" href="../Styles/dbms.css">
+
+</head>
+
+<body>
+    <main>
+    <div class="a" id="flex"><h1  style="text-align:center">Database Management System</h1>  
+        <div id="flexx"><a href="dbms.html" ><button class="button1">Previous Page</button></a>
+            <a href="dbms2.html" ><button class="button2">Next Page</button ></a></div> 
+
+
+
+<h2>Characteristics of database approach</h2>
+
+
+<p>
+    In this article, we will discuss the overview of the Database Approach and will mainly focus on its characteristics. Also, we will cover the Characteristics of the Database Approach in detail. Let&#8217;s discuss it one by one.
+</p>
+<p>
+    <strong>Overview :</strong><br>There are different characteristics of the database approach from the much older approach of programming with files. In a traditional file processing system, each user defines and implements its own modifications to the files needed for a selected software application as a part of programming the appliance. In the database approach, one repository maintains data which is defined once then accessed by various users in that database. In a file system, it will be independently like an application that is free to name elements. In comparison, during a database, the names or labels of knowledge are defined once and used repeatedly by queries, transactions, and applications.&nbsp;
+</p>
+<p>
+    <strong>Characteristics of database approach :</strong><br>Some of the most important characteristics of the database approach to the file processing approach are the following as follows.
+</p>
+<p>
+    <strong>Approach-1 :</strong><br><strong>Self-Describing Nature of a </strong><strong>Database System</strong></a><strong> :</strong>
+</p>
+<ul>
+    <li>One of the most fundamental characteristics of the database approach is that the database system contains not only the database itself but also an entire definition or description of the database structure and constraints also known as metadata of the database.&nbsp;</li>
+    <li>This definition is stored within the DBMS catalog, which contains information like the structure of every file, the sort and storage format of every data item, and various constraints/rules on the information.&nbsp;</li>
+    <li>The knowledge stored within the catalog is named meta-data, and it describes the structure of the first database The catalog is employed by the DBMS software and also by database users such as database administrators who required to know the information about the database structure.&nbsp;</li>
+    <li>A general-purpose DBMS software package is not written for a selected database application. Therefore, it must ask the catalog to understand the structure of the files during a specific database, like the sort and format of knowledge it will access.&nbsp;
+
+    </li>
+    <li>The DBMS software must work equally well with any number of database applications, For example, a university database, a banking database, or a corporation database as long as because the database definition is stored within the catalog In traditional file processing, data definition is usually a part of the files. File processing software can access only specific databases, Database Management software can access various databases by extracting the database definitions or schemas from the catalog and using these definitions.<br>&nbsp;</li>
+</ul>
+<p>
+    <strong>Approach-2 :</strong><br><strong>Isolation between Programs and Data, and </strong><strong>Data Abstraction</strong><strong> :</strong>
+</p>
+<ul>
+    <li>In a traditional file processing system, the structure of database knowledge files is embedded within the application programs, so any changes to the structure of a file may require changing all programs that access that file.&nbsp;</li>
+    <li>Against this, DBMS access programs don&#8217;t require such changes in most cases, so independence is achieved between them.&nbsp;</li>
+    <li>The structure of knowledge files is stored within the DBMS catalog separately from the programs that access them. We call this property program-data independence.&nbsp;</li>
+    <li>The characteristic that allows program-data independence and program-operation independence is known as data abstraction.&nbsp;</li>
+    <li>A DBMS provides users with a conceptual representation of knowledge that doesn&#8217;t include much of the small print of how the information is stored or how the operations are implemented internally. Informally, a knowledge model may be a sort of data abstraction that won&#8217;t provide this conceptual representation.&nbsp;</li>
+    <li>The information model uses logical concepts, like objects, their properties, and their relationships between them, which will be easier for many users to know than memory concepts or storage concepts. Hence, the information model hides storage and implementation details that are not of interest to most database users, so unnecessary complications are hidden from them.&nbsp;</li>
+</ul>
+<p>
+    <strong>Approach-3 :</strong><br><strong>Support for Multiple Views of the Data :</strong>
+</p>
+<ul>
+    <li>A database sometimes has many users, each of whom may require a special perspective or view of the database.&nbsp;</li>
+    <li>A view could also be a subset of the database, or it&#8217;s going to contain virtual data that is derived from the database files but isn&#8217;t explicitly stored.&nbsp;</li>
+    <li>Some users might not get to remember whether the information they ask for is stored or derived.&nbsp;</li>
+    <li>A multi-user DBMS whose users have a spread of distinct applications must provide facilities for outlining multiple views. This provides many benefits for large databases such as the Aadhaar database.<br>&nbsp;</li>
+</ul>
+<p>
+    <strong>Approach-4 :</strong><br><strong>Sharing of knowledge and Multi-user Transaction Processing :</strong>
+</p>
+<ul>
+    <li>A multi-user DBMS, as its name implies, must allow multiple users to access the database at an equivalent time or concurrently.&nbsp;</li>
+    <li>This is often essential if data for multiple applications is to be integrated and maintained during a single database such as the latest feature of WhatsApp integration with Facebook.&nbsp;</li>
+    <li>The DBMS must implement concurrency control in the software to make sure that several users trying to update equivalent data do so in a controlled manner in order that the results of the updates are correct.&nbsp;</li>
+    <li>For instance, when several reservation agents attempt to assign a seat on an airline flight, the DBMS should make sure that each seat is often accessed by just one user agent at a single time for an assignment to a passenger.&nbsp;</li>
+    <li>These sorts of applications are generally called online transaction processing (OLTP) applications. A fundamental role of multi-user DBMS software is to make sure that concurrent transactions operate correctly and efficiently with no inconsistency.&nbsp;</li>
+    <li>The concept of a transaction has become central to several database applications. A transaction is an executing program or process that has one or more database accesses, like reading or updating of database records or inserting new records.&nbsp;</li>
+    <li>The isolation property ensures that every transaction appears to execute in isolation from other transactions, many transactions could also be executed concurrently without affecting each other.&nbsp;</li>
+    <li>The atomicity property ensures that either all the database operations during a transaction are executed or none are, these all ACID properties we know.</li></ul>
+
+
+
+
+<div id="flexx"><a href="dbms.html" ><button class="button1">Previous Page</button></a>
+    <a href="dbms2.html" ><button class="button2">Next Page</button ></a></div>
+
+
+    </div></main>
+</body>
+</html>
